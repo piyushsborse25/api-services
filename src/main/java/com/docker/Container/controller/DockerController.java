@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerController {
 	
 	@GetMapping(path = "/welcome", produces = MediaType.TEXT_HTML_VALUE)
-	public String Welcome() {
+	public String welcome() {
 		
 		return """
             <!DOCTYPE html>
@@ -108,7 +108,7 @@ public class DockerController {
                     <div class="logo">🎬 MovieVerse</div>
                 </header>
                 <div class="container">
-                    <h1>Welcome to MovieVerse</h1>
+                    <h1>Welcome to WinMovieVerse</h1>
                     <p class="tagline">Your ultimate destination for movie entertainment!</p>
                     <a href="#" class="button">Explore Movies</a>
                     <a href="#" class="button">Sign Up</a>
