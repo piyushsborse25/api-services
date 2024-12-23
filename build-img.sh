@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cd /home/piyush/Documents/projects/Container
+#cd /home/piyush/Documents/projects/Container
 
-docker build -t piyushsborse/automated-service:latest -f Dockerfile .
+docker build -t piyushsborse/git-container-service:latest -f Dockerfile .
 
-#docker stop piyushsborse/automated-service:latest
+#docker stop piyushsborse/git-container-service
 
-docker run -d -p 8080:8080 piyushsborse/automated-service:latest
+docker run -d -p 8087:8087 piyushsborse/git-container-service
