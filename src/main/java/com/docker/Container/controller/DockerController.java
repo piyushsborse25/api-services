@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerController {
 	
 	@GetMapping(path = "/welcome", produces = MediaType.TEXT_HTML_VALUE)
-	public String Welcome() {
+	public String welcome() {
 		
 		return "<!DOCTYPE html>\r\n"
 				+ "<html lang=\"en\">\r\n"
